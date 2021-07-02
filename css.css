@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background:rgba(244,231,193,1.00);
+	color:#495560;
+	font-family:'Montserrat', sans-serif
+}
+header{
+	width:100%;
+	padding:20px 0;
+	position:fixed;
+	z-index: 9999;
+    
+}
+
+#wrapper{
+	position:relative;
+}
+.logo{
+	font-size:25px;
+	padding-top:-10px;
+	color:#495560;
+	
+
+}
+.menu{
+	
+	height:50px;
+}
+.menu ul{
+	height:100%;
+	list-style: none;
+	display:flex;
+	justify-content: center;
+}
+.menu ul li{
+	margin:0 30px;
+	margin-top:5px;
+}
+.menu ul li a{
+	color:black;
+	text-decoration: none;
+	font-size:20px;
+}
+.btn{
+	padding:10px 20px;
+	font-size:16px;
+	background:#96B4D0;
+	color:white;
+	text-decoration: none;
+ }  
+.banner{
+	padding:125px 0;
+} 
+.title{
+	width:500px;
+	animation:title 10s linear infinite;
+	margin-bottom:20px;
+}
+@keyframes title{
+	from{
+		transform:translateX(1000px)
+	}
+	to{
+		transform:translateX(-1000px)
+	}
+}
+.banner h3{
+	font-size:70px;
+	padding:10px;
+	;
+}
+.primary-color{
+	color:#96B4D0;
+}
+.banner img{
+	width:400px;
+	margin-left:150px;
+	margin-top:20px;
+}
+.box img{
+	width:300px;
+	margin-bottom:10px;
+}
+.box p{
+	font-size:20px ;
+	padding:5px;
+	margin-left:30px;
+
+}
+.banner h1{
+	margin-top:10px;
+}
+.banner video{
+	width:550px;
+	margin-bottom:5px;
+}
+.arena{
+	width:300px;
+	margin-top:250px
+}
+.Experience h3{
+	font-size:23px;
+	margin-left: 45px;
+}
+.olaf{
+	width:300px;
+	
+	position:absolute;
+	right:1000px;
+	top:1130px;
+	animation:olaf 6s linear infinite ;
+	margin-top:250px
+
+}
+.line{
+	width:500px;
+	
+	position:absolute;
+	right:680px;
+	top:1400px;
+	margin-top:250px
+}
+.ep{
+	width:150px;
+	
+	position:absolute;
+	right:1060px;
+	top:1420px;
+	animation:olaf 6s linear infinite ;
+	margin-top:250px;
+}
+@keyframes olaf{
+	from{
+		transform:translateX(-30px)
+	}
+	to{
+		transform:translateX(450px)
+	}
+}
+.text{
+	width:400px;
+	margin-top:230px;
+	margin-left:5px;
+}
+.Skills{
+	padding:60px 0;
+
+}
+.Skills h1{
+	font-size:40px;
+	text-align: center;
+	margin-bottom: 48px;
+	margin-top:30px;
+}
+
+.tabcontent{
+  animation: fadeEffect 1s; 
+
+	margin-top: 30px;
+
+}
+.pt{
+	display:flex;
+	
+	width:100%;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	
+}
+
+.tabcontent h3{
+	font-size:30px;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left:30px;
+	
+	
+}
+.pt img{
+		width:350px;
+}	
+.fl{
+	width:50px;
+	position:absolute;
+	right:1060px;
+	top:1780px;
+	animation:fl 2s linear infinite ;
+	margin-top:250px;
+	
+	
+}
+@keyframes fl{
+	from{
+		transform:translateX(230px)
+	}
+	to{
+		transform:translateX(480px)
+	}
+}
+.fl-2{
+width:50px;
+	position:absolute;
+	right:1060px;
+	top:1780px;
+	animation:fl-2 2s linear infinite ;
+	margin-top:250px;
+}
+@keyframes fl-2{
+	from{
+		transform:translateX(230px)
+	}
+	to{
+		transform:translateX(400px)
+	}
+}
+.fl-3{
+width:50px;
+	position:absolute;
+	right:1060px;
+	top:1780px;
+	animation:fl-3 2s linear infinite ;
+	margin-top:250px;
+}
+@keyframes fl-3{
+	from{
+		transform:translateX(230px)
+	}
+	to{
+		transform:translateX(360px)
+	}
+}
+.tab{
+	text-align:center; 
+}
+.tablinks{
+	padding:5px 50px ;
+	font-size:30px;
+	background:none;
+	color:#96B4D0;
+	border:none;
+	cursor: pointer;
+	
+}
+
+
+.tab button.active{
+	background-color:aliceblue;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: white;
+}
+
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.boxx{
+	width:210px;
+	margin-top:50px;
+	margin-bottom: 8px;
+	
+}
+.Gallery p{
+	font-size:30px;
+margin-left:2px;
+	
+}
+.Gallery h1{
+	font-size:40px;
+	text-align: center;
+	margin-bottom: 48px;
+	margin-top:30px;
+}
+footer{
+	background:#96B4D0;
+	height:60px;
+	padding:20px 0;
+	margin-top:40px;
+}
+.contact{
+	font-size:20px;
+	text-decoration: none;
+	color:white;
+	margin-top:3px;
+	margin-left:50px;
+}
+.icon{
+	width:10%;
+	
+	display:flex;
+	
+	align-items: center;
+}
+.icon a{
+	color:white;
+	font-size:24px;
+	margin:0px 15px;
+	margin-top:5px;
+	transition-duration:1s;
+}
+.icon a:hover{
+	color:rgba(247,232,182,1.00);
+}
+input{
+	width:100%;
+	height:32px;
+	padding-left:30px;
+	border:none;
+}
+td{
+	padding-right:40px;
+}
+td button{
+	width:60px;
+	height:32px;
+	color:#495560;
+	background:white;
+	border:none;
+}
+td button:hover{
+	color:rgba(244,231,193,1.00)
+}
+form{
+	margin-left:180px
+}
+.fed{
+	margin-bottom: 2px;
+	font-size:20px;
+	color:white;
+	text-align: center;
+}
+.bq{
+	font-size:15px;
+	color:white;
+}
+.cs{
+	font-size:15px;
+	text-decoration:underline;
+	color:white;
+}
+
+
+	
+
+
+
+
